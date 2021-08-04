@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow" />
+		<meta name="rating" content="adult" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Captain Morgan">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+		<meta name="keywords" content="ключевые слова"/>
+		<meta name="author" content="Varlamov Andrew"/>
+		<meta name="copyright" content="(c)"> 
+		<meta http-equiv="Reply-to" content="varlamov287842king@gmail.com">
+    <title>Главная | Captain Morgan</title>
+    <link rel="stylesheet" href="./css/vendor.min.css?v=0.0.2.1">
+    <link rel="stylesheet" href="./css/style.min.css?v=0.0.2.1">
+  </head>
+  <body class="page-home">
+    <div class="page-wrapper">
+      <header class="header">
+        <button class="header__burger button_reset" aria-label="Продукты">
+          <svg class="icon icon-wine">
+            <use xlink:href="img/sprite.svg#wine"></use>
+          </svg><span class="header__burger-name"><span class="header__burger-small-name _show">	Продукция</span><span class="header__burger-small-name _hide">Закрыть</span></span>
+        </button>
+        <div class="header__logo"><img class="logo" src="./img/logo-white.png" alt="Логотип"></div>
+      </header>
+      <main class="page-main main">
+        <div class="warining-modal" aria-hidden="false">
+          <div class="warining-modal_overlay"></div>
+          <div class="warining-modal__content">
+            <h3 class="warining-modal__title">	Тебе уже есть 18 лет?</h3>
+            <div class="warining-modal_button-wrap">
+              <button class="button_reset main-button warining-modal__button _age-yes">	Да</button>
+              <button class="button_reset main-button warining-modal__button _age-no">	Нет</button>
+            </div>
+            <p class="warining-modal__cancel">	Жаль, будем рады тебя видеть, когда тебе исполнится 18&nbsp;лет.</p>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="menu__content">
+            <div class="menu__content_inner">
+              <h3 class="menu__title">	Наша продукция</h3>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <div class="menu__item-img">
+                    <picture>
+                      <source type="image/webp" srcset="img/bottle1.webp"/><img src="img/bottle1.png" alt="бутылка"/>
+                    </picture>
+                  </div>
+                  <h3 class="menu__item-title">Captain Morgan Original Spiced Gold</h3>
+                </li>
+                <li class="menu__item">
+                  <div class="menu__item-img">
+                    <picture>
+                      <source type="image/webp" srcset="img/bottle2.webp"/><img src="img/bottle2.png" alt="бутылка"/>
+                    </picture>
+                  </div>
+                  <h3 class="menu__item-title">Captain Morgan White Rum</h3>
+                </li>
+                <li class="menu__item">
+                  <div class="menu__item-img">
+                    <picture>
+                      <source type="image/webp" srcset="img/bottle3.webp"/><img src="img/bottle3.png" alt="бутылка"/>
+                    </picture>
+                  </div>
+                  <h3 class="menu__item-title">Captain Morgan Dark Rum</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <section class="morgan-hero">
+          <div class="morgan-hero__mobile-block mobile-block">
+            <h2 class="mobile-block__title _first"><span>	Только свежий<br></span>	и чистый тросник</h2>
+            <h2 class="mobile-block__title _second">	Сейчас начнем<span>	измельчать</span></h2>
+            <h2 class="mobile-block__title _third">	Смешиваем патоку<br>с водой<span>	и немного дрожжи</span></h2>
+            <h2 class="mobile-block__title _fourth">	Выпариваем при<br><span>	93 градусов</span></h2>
+            <h2 class="mobile-block__title _fifth">	Разливаем<br><span>	в бутылки</span></h2>
+            <figure class="morgan-hero__mobile-img">
+              <picture>
+                <source type="image/webp" srcset="img/mobile-img.webp"/><img src="img/mobile-img.png"/>
+              </picture>
+            </figure>
+          </div>
+          <article class="morgan-hero__info">
+            <div class="_overflow">
+              <h1 class="morgan-hero__title _active"><span>	Только свежий<br></span>	и чистый тросник</h1>
+            </div>
+            <button class="button_reset morgan-hero__button _active">	Начать</button>
+          </article>
+          <div class="morgan-hero__texts">
+            <article class="morgan-title morgan-title_first overflow" data-text="second">
+              <h3>	Сейчас начнем измельчать</h3>
+              <button class="button_reset play-button-js main-button">	Поехали!</button>
+            </article>
+            <article class="morgan-title morgan-title_third overflow" data-text="third">
+              <h3>	Смешиваем патоку<br>с водой<span>	и немного дрожжи</span></h3>
+              <button class="button_reset play-button-js main-button">	Понятно</button>
+            </article>
+            <article class="morgan-title morgan-title_thourth overflow" data-text="thourth">
+              <h3>	Выпариваем при<br><span>	93 градусов</span></h3>
+              <button class="button_reset play-button-js main-button">	Дальше</button>
+            </article>
+            <article class="morgan-title morgan-title_fifth overflow" data-text="fifth">
+              <h3>	Разливаем<br><span>	в бутылки</span></h3>
+              <button class="button_reset play-button-js main-button">	Вперед!</button>
+            </article>
+          </div>
+          <button class="morgan-hero__again button_reset main-button">	Заново</button>
+          <video class="morgan-hero__video" src="./resourses/video.mp4" playsinline muted></video>
+        </section>
+        <div class="page-main__links"><a class="inst-link" href="#" aria-label="Наш инстаграмм">
+            <svg class="icon icon-instagram">
+              <use xlink:href="img/sprite.svg#instagram"></use>
+            </svg></a><a class="policy" href="#">	Политика конфиденциальности</a></div>
+      </main>
+      <footer class="footer">
+        <div class="site-container">
+          <div class="footer__container">
+            <p class="footer__text">	ЧРЕЗМЕРНОЕ ПОТРЕБЛЕНИЕ АЛКОГОЛЯ ВРЕДИТ ВАШЕМУ ЗДОРОВЬЮ</p>
+            <svg class="icon icon-wraning">
+              <use xlink:href="img/sprite.svg#wraning"></use>
+            </svg>
+            <div class="page-main__links footer__links"><a class="inst-link" href="#" aria-label="Наш инстаграмм">
+                <svg class="icon icon-instagram">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg></a><a class="policy" href="#">	Политика конфиденциальности</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="js/main.js?v=0.0.2.1"></script>
+</html>
